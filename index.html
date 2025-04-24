@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn-icons-png.freepik.com/256/5794/5794565.png?semt=ais_hybrid" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Chewy&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Knewave&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="title">
+      <h1>Tic Tac Toe</h1>
+    </div>
+
+    <button id="modeButton">Play with Bot</button>
+
+    <div id="board">
+          <div class="square" id="square0"></div>
+          <div class="square" id="square1"></div>
+          <div class="square" id="square2"></div>
+          <div class="square" id="square3"></div>
+          <div class="square" id="square4"></div>
+          <div class="square" id="square5"></div>
+          <div class="square" id="square6"></div>
+          <div class="square" id="square7"></div>
+          <div class="square" id="square8"></div>
+    </div>
+
+    <div id="endGame">
+      <input  type="button" value="Restart" id="restartButton" onclick="restartButton()"/>
+  </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+body {
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://images.template.net/113226/free-neon-blue-background-edgzu.jpeg);
+}
+#title {
+  margin-top: 30px;
+}
+#title h1 {
+  font-family: inter;
+  font-size: 50px;
+  margin: 0%;
+  color: rgb(62, 99, 180);
+}
+nav {
+
+}
+#board {
+  margin-top: 30px;
+  width: 375px;
+  height: 375px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 2px solid #D3D3D3;
+  border-radius: 5px;
+  background-color: rgb(22, 24, 39);
+}
+.square {
+  width: 122px;
+  height: 122px;
+  border: 2px solid #D3D3D3;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square:hover {
+  background-color: rgb(36, 36, 57);
+}
+
+#restartButton {
+  background-color: rgb(22, 24, 39);
+  color: #D3D3D3;
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 6px;
+}
+#restartButton:active {
+  color: rgb(34, 197, 19);
+  
+}
+#modeButton {
+  margin-top: 20px;
+  background-color: rgb(22, 24, 39);
+  color: #D3D3D3;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 6px;
+}
+#modeButton:active {
+  color: rgb(34, 197, 19);
+}
+
